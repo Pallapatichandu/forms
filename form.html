@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <img src="./aprtc logo.png" alt="aprtc logo">
+
+        <h1> andhra pradesh state bord transport corporation</h1>
+        <h2>general bus pass application</h2>
+    </center>
+    <fieldset>
+        <legend>application details</legend>
+
+        <form action="/submit.html" method="get">
+            <table>
+
+                <tr>
+                    <td>Name:</td>
+                    <td>
+
+                        <input type="text" id="name" name="name">
+                    </td>
+                    <td>Father's/gurdian's name:</td>
+                    <td>
+                        <input type="text" id="f/g n" name="f/g">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date"></td>
+                    <td>Gender:</td>
+
+                    <td>
+                        <input type="radio" name="Gender" id="Gender" value="male">male
+                        <input type="radio" name="Gender" id="Gender" value="female">female
+                    </td>
+
+
+                </tr>
+
+                <tr>
+                    <td>Age as on:</td>
+                    <td><input type="text"> </td>
+                    <td>andhra no:</td>
+                    <td><input type="text" id="a no" name="andhra"> </td>
+                </tr>
+                <tr>
+                    <td>whatsapp no:</td>
+                    <td>
+                        <input type="text" id="whatsapp" name="whatsapp">
+                    </td>
+                    <td>E-mail:</td>
+                    <td> <input type="text" id="E-mail" name="E-mail"></td>
+                </tr>
+                <tr>
+                    <td>photo:</td>
+                    <td>
+                        <input type="file" required pattern="[.+\.pdf$]">
+                    </td>
+                </tr>
+    </fieldset>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Residential address details</legend>
+        <table>
+            <tr>
+                <td> <label>application address:</label></td>
+                <td> <textarea name="address" id="address">address</textarea></td>
+                <td>district</td>
+                <td><select name="district" id="m" name="mandal">
+                        <option value="select">..select..</option>
+                        <option value="prakasam">prakasm</option>
+                        <option value="bapatla">bapatla</option>
+                        <option value="nellore">nellore</option>
+                        <option value="kurnool">kurnool</option>
+                        <option value="guntur">guntur</option>
+
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>mandal:</td>
+                <td><select name="mandal" id="m" name="mandal">
+                        <option value="select">..select..</option>
+                        <option value="thaluru">thaluru</option>
+                        <option value="addanki">addanki</option>
+
+                    </select>
+                </td>
+
+                <td>village:</td>
+                <td>
+                    <select value="village" id="v" name="village">
+                        <option value="select">..select..</option>
+                        <option value="dosakayalapadu">dosakayalapadu</option>
+                        <option value="pothakamuru">pothakamuru</option>
+                </td>
+                </select>
+            </tr>
+            <tr>
+                <td>pincode:</td>
+                <td>
+                    <input type="text" id="p" name="pincode">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>pass type details</legend>
+        <table>
+            <tr>
+                <td>city</td>
+                <td>
+
+                    <select value="city" id="c" name="city">
+                        <option value="select">..select..</option>
+                        <option value="vijayavada">vijayavada</option>
+                        <option value="krushna">krushna</option>
+                    </select>
+                </td>
+            <tr>
+                <td>pass type:</td>
+                <td>
+                    <select value="pass type" id="c" name="pass type">
+                        <option value="select">..select..</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>mode of payment & pass collection</legend>
+        <table>
+
+            <tr>
+                <td>payment mode</td>
+                <td><select name="payment mode" id="payment mode">
+                        <option value="..select..">..select..</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>pass delivery mode :</td>
+                <td>
+                    <select value="delivery ,mode">offline</option>
+                        <option value="select">..select..</option>
+                        <option value="online">online</option>
+                        <option value="offline">offline</option>
+                </td>
+            </tr>
+            <tr>
+                <td>center at with you want to collect pass</td>
+                <td>
+                    <select value="ongole">
+                        <option value="section">..select..</option>
+                        <option value="ongole">ongole</option>
+
+                    </select>
+
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <center><img src="./capture.jpg" alt="capture.jpg" width="100" height="40"><br>
+        <tr>
+            <td>
+                <input type="text" placeholder="enter the capture">
+
+            </td>
+        </tr><br>
+        <input type="submit" value="submit">
+    </center>
+    </forms>
+
+
+
+
+
+
+
+</body>
+
+</html>
